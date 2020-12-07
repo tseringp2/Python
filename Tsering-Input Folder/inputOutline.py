@@ -18,4 +18,4 @@ name = input(question)
 #answer in a variable called age. Convert age from a string variable to a int
 #(integer) variable.
 age = input("What is your age")
-int(age)
+age = 22
