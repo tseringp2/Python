@@ -43,8 +43,8 @@ the area.
 The function prints and returns the area.
 '''
 def rectangleArea():
-    = input("What is the height of your rectangle?")
-    width = input()
+    height = input("What is the height of your rectangle?")
+    width = input("What is the width of your rectangle")
     
     area = int(height) * int(width)
     print(area)
