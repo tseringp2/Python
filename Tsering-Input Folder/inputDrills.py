@@ -25,7 +25,7 @@ favAnimal = input("What is your favorite animal")
 #and store their answer in a variable called favNum. Convert favNum from a 
 #string variable to a int variable.
 favNum = input("What is your favorite number")
-favNum = 17
+int(favNum)
 
 #3) Get input from the user to the question "What is your school's name?"
 #and store their answer in a variable called school.
@@ -40,4 +40,4 @@ instructor = input("What is your instructor name")
 #and store their answer in a variable called ans. Convert ans from a string
 #variable to a int variable
 ans = input("What is 2+2")
-ans = 4
+int(ans)
