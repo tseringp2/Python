@@ -20,7 +20,7 @@ elif statements, and one else statement).
 
 If the problem is: tire, it says: Replace tires.
 
-If the problem is: headlight, it says: Fill headlight fluid.
+If the problem is: head light, it says: Fill head light fluid.
 
 If the problem is: door, it says: replace door.
 
@@ -28,7 +28,7 @@ If the problem is: gas, it says: Fill gas tank.
 
 If the problem is: window, it says: Replace window.
 
-If the problem is: wipers, it says: Replace windshield wipers.
+If the problem is: wipers, it says: Replace wind shield wipers.
 
 If the problem is: battery, it says: Replace battery.
 
@@ -40,30 +40,30 @@ If the problem is: anything else, it says: Your car is fine.
 '''
 def fixMyCar(problem):
     if(problem == "tire"):
-    print("Replace tires.")
+        print("Replace tires.")
     elif():
-        print("Fill headlight fluid.")
-    (problem == "door"):
+        print("Fill head light fluid.")
+    elif(problem == "door"):
         print("replace door")
-    elif(problem == "gas")
+    elif(problem == "gas"):
         print("Fill gas tank")
-    elif(problem == "window":
+    elif(problem == "window"):
         print("Replace window")
-    elifproblem == "wipers"):
-        print("Replace windshield wipers")
-    eif(problem == "battery"):
+    elif(problem == "wipers"):
+        print("Replace wind shield wipers")
+    elif(problem == "battery"):
         print("Replace battery")
-    else(problem == "exhaust"):
+    elif(problem == "exhaust"):
         print("Replace exhaust system")
-    if(problem == "transmission"):
+    elif(problem == "transmission"):
         print("Throw out car")
-    if:
+    else:
         print("Your car is fine.")
     
     return 
 
 fixMyCar("tire")
-fixMyCar("headlight")
+fixMyCar("head light")
 fixMyCar("door")
 fixMyCar("gas")
 fixMyCar("window")
