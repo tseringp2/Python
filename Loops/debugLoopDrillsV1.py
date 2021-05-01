@@ -74,4 +74,4 @@ def printGrades(studentList):
 
 listOfStudents = [66, 24, 12, 45, 100, 100, 100]
 printGrades(listOfStudents)
-        
+ 
